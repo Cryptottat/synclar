@@ -11,22 +11,22 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="header-logo">
-          <img src="/logo_tr_fit.png" alt="Orakle Logo" className="logo-image" />
-          <span className="logo-text">orakle</span>
+          <img src="/logo_tr_fit.png" alt="Synclar Logo" className="logo-image" />
+          <span className="logo-text">synclar</span>
         </Link>
         <nav className="header-nav">
-          <a href="https://pump.fun/coin/3P3UCekWMDnfXPawuZN7MDptZSz8z4xukM4FkguTpump" target="_blank" rel="noopener noreferrer" className="nav-link">
-            $ORKL
-          </a>
-          <a href="https://x.com/orakledotnet" target="_blank" rel="noopener noreferrer" className="nav-link">
+          <a href="https://x.com/synclardotcloud" target="_blank" rel="noopener noreferrer" className="nav-link">
             x
           </a>
-          <Link to="/introduction/overview/what-is-orakle" className={`nav-link ${isDocs ? 'active' : ''}`}>
+          <Link to="/introduction/overview/what-is-synclar" className={`nav-link ${isDocs ? 'active' : ''}`}>
             docs
           </Link>
           <Link to="/app" className={`nav-link ${isApp ? 'active' : ''}`}>
             app
           </Link>
+          <a href="https://pump.fun" target="_blank" rel="noopener noreferrer" className="nav-link">
+            $SCL
+          </a>
         </nav>
       </div>
     </header>

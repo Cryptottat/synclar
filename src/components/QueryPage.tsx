@@ -8,12 +8,12 @@ export default function QueryPage() {
       <div className="page-preview-container">
       <div className="page-content-wrapper">
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h1 style={{ fontSize: '2.5rem', marginBottom: '2rem', fontWeight: '600' }}>Orakle Query</h1>
+          <h1 style={{ fontSize: '2.5rem', marginBottom: '2rem', fontWeight: '600' }}>Synclar Query</h1>
           
           {/* Query input */}
           <div style={{ marginBottom: '2rem' }}>
             <textarea
-              placeholder="Ask Orakle anything... (e.g., Predict $SOL sentiment in 1h)"
+              placeholder="Ask Synclar anything... (e.g., Predict $SOL sentiment in 1h)"
               style={{
                 width: '70%',
                 minHeight: '200px',

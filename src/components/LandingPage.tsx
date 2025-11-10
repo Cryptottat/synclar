@@ -99,7 +99,7 @@ export default function LandingPage() {
       {/* Bottom decorative elements */}
       <div className="landing-footer">
         <div className="footer-line"></div>
-        <div className="footer-text">Orakle</div>
+        <div className="footer-text">Synclar</div>
       </div>
     </div>
   )

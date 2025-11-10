@@ -57,11 +57,11 @@ export default function LoadingPage({ onComplete }: LoadingPageProps) {
       
       <div className="loading-content">
         <div className="loading-logo-wrapper">
-          <div className="loading-logo">orakle</div>
+          <div className="loading-logo">synclar</div>
           {showLogo && (
             <img 
               src="/logo_tr_fit.png" 
-              alt="Orakle Logo" 
+              alt="Synclar Logo" 
               className="loading-logo-image"
             />
           )}

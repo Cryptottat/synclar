@@ -11,8 +11,8 @@ export default function TerminalPage() {
         <div className="dashboard-terminal">
           <div className="terminal-body">
               <div className="terminal-line">
-                <span className="terminal-prompt">orakle@cloud:~$</span>
-                <span className="terminal-command"> orakle status</span>
+                <span className="terminal-prompt">synclar@cloud:~$</span>
+                <span className="terminal-command"> synclar status</span>
               </div>
               <div className="terminal-line">
                 <span className="terminal-output">System: Operational</span>
@@ -24,7 +24,7 @@ export default function TerminalPage() {
                 <span className="terminal-output">x402 Network: Active</span>
               </div>
               <div className="terminal-line">
-                <span className="terminal-prompt">orakle@cloud:~$</span>
+                <span className="terminal-prompt">synclar@cloud:~$</span>
                 <span className="terminal-command"> query --help</span>
               </div>
               <div className="terminal-line">
@@ -37,14 +37,14 @@ export default function TerminalPage() {
                 <span className="terminal-output">  --ai           Use AI predictions</span>
               </div>
               <div className="terminal-line">
-                <span className="terminal-prompt">orakle@cloud:~$</span>
-                <span className="terminal-command"> orakle balance</span>
+                <span className="terminal-prompt">synclar@cloud:~$</span>
+                <span className="terminal-command"> synclar balance</span>
               </div>
               <div className="terminal-line">
                 <span className="terminal-output">Current Balance: 0.00... x402</span>
               </div>
               <div className="terminal-line">
-                <span className="terminal-prompt">orakle@cloud:~$</span>
+                <span className="terminal-prompt">synclar@cloud:~$</span>
                 <span className="terminal-cursor"></span>
               </div>
             </div>

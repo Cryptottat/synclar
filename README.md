@@ -1,4 +1,4 @@
-# Orakle Documentation
+# Synclar Documentation
 
 AI-Powered Data Oracle with x402 Micropayments - Documentation Website
 

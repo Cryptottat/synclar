@@ -42,9 +42,9 @@ export default function AppPage() {
       <AppSubHeader />
 
       <div className="app-page-container">
-        <h1 className="app-page-title">Orakle App</h1>
+        <h1 className="app-page-title">Synclar App</h1>
         <p className="app-page-description">
-          The Orakle application is coming soon. This will be your gateway to AI-powered predictions and instant data insights.
+          The Synclar application is coming soon. This will be your gateway to AI-powered predictions and instant data insights.
         </p>
         <div className="app-page-features">
           <div className="app-feature">

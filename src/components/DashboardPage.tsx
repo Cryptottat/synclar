@@ -33,7 +33,7 @@ export default function DashboardPage() {
           <div style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Quick Query</h2>
             <textarea
-              placeholder="Ask Orakle anything..."
+              placeholder="Ask Synclar anything..."
               style={{
                 width: '100%',
                 minHeight: '120px',

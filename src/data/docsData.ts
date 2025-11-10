@@ -9,15 +9,15 @@ export const docsData: DocItem[] = [
   {
     l1: 'Introduction',
     l2: 'Overview',
-    l3: 'What is Orakle?',
-    content: `Orakle is an AI-powered data oracle that leverages the x402 protocol for instant, real-time micropayments. It provides divine data, predictive analytics, and event triggers, all paid for on-demand.
+    l3: 'What is Synclar?',
+    content: `Synclar is an AI-powered data oracle that leverages the x402 protocol for instant, real-time micropayments. It provides divine data, predictive analytics, and event triggers, all paid for on-demand.
 
-Orakle speaks truth – Divine data, instant wealth.`
+Synclar speaks truth – Divine data, instant wealth.`
   },
   {
     l1: 'Introduction',
     l2: 'Core Concepts',
-    l3: 'The Orakle Ecosystem',
+    l3: 'The Synclar Ecosystem',
     content: `1. AI-Powered Queries: Go beyond simple data. Ask predictive, complex questions and receive AI-generated insights.
 
 2. x402 Micropayments: Every query is a simple x402 transaction. No subscriptions, just pay-per-query for the exact data you need, when you need it.
@@ -27,26 +27,26 @@ Orakle speaks truth – Divine data, instant wealth.`
   {
     l1: 'Introduction',
     l2: 'Getting Access',
-    l3: 'Accessing the Orakle API',
-    content: `Access to the Orakle API is managed via the Orakle Dashboard. Sign up to generate your API keys and pre-fund your account with x402 to begin querying.`
+    l3: 'Accessing the Synclar API',
+    content: `Access to the Synclar API is managed via the Synclar Dashboard. Sign up to generate your API keys and pre-fund your account with x402 to begin querying.`
   },
   {
     l1: 'User Guide',
-    l2: 'The Orakle Bot',
-    l3: 'Interacting with Orakle',
-    content: `For end-users and traders, the simplest way to query Orakle is via our official Telegram and Discord bots. Simply send a query, approve the x402 payment, and receive your data instantly in the chat.`
+    l2: 'The Synclar Bot',
+    l3: 'Interacting with Synclar',
+    content: `For end-users and traders, the simplest way to query Synclar is via our official Telegram and Discord bots. Simply send a query, approve the x402 payment, and receive your data instantly in the chat.`
   },
   {
     l1: 'User Guide',
     l2: 'Use Cases',
     l3: 'On-Chain Betting & Events',
-    content: `Orakle powers a new generation of on-chain event derivatives. Platforms (like Pump.fun integrations) can use Orakle to verify real-world outcomes, allowing users to bet on anything from market movements to sports results, with payouts settled instantly.`
+    content: `Synclar powers a new generation of on-chain event derivatives. Platforms (like Pump.fun integrations) can use Synclar to verify real-world outcomes, allowing users to bet on anything from market movements to sports results, with payouts settled instantly.`
   },
   {
     l1: 'User Guide',
     l2: 'Use Cases',
     l3: 'AI-Assisted Trading',
-    content: `A trader can query Orakle for predictive market sentiment on a specific token just before executing a trade. The AI analyzes real-time data and returns a confidence score, all paid for with a single micropayment.`
+    content: `A trader can query Synclar for predictive market sentiment on a specific token just before executing a trade. The AI analyzes real-time data and returns a confidence score, all paid for with a single micropayment.`
   },
   {
     l1: 'Developer Guide',
@@ -64,7 +64,7 @@ Your API key is linked to your pre-funded x402 account, which is debited for eac
     l1: 'Developer Guide',
     l2: 'Core Logic',
     l3: 'Synchronous vs. Asynchronous Queries',
-    content: `Orakle supports two query types.
+    content: `Synclar supports two query types.
 
 **Synchronous queries** (e.g., "What is the price of $SOL?") return data immediately in the same API call.
 
@@ -74,13 +74,13 @@ Your API key is linked to your pre-funded x402 account, which is debited for eac
     l1: 'Developer Guide',
     l2: 'Webhooks',
     l3: 'Handling Webhook Events',
-    content: `To receive results from asynchronous queries or real-time event triggers, you must configure a webhook endpoint in your Orakle Dashboard. Our server will send a POST request to your URL when an event occurs.`
+    content: `To receive results from asynchronous queries or real-time event triggers, you must configure a webhook endpoint in your Synclar Dashboard. Our server will send a POST request to your URL when an event occurs.`
   },
   {
     l1: 'Developer Guide',
     l2: 'Webhooks',
     l3: 'Securing Your Webhook Endpoint',
-    content: `It is critical to verify that incoming webhooks are from Orakle. Every request includes an X-Orakle-Signature header. You must verify this signature using your Webhook Signing Secret to prevent spoofing.`
+    content: `It is critical to verify that incoming webhooks are from Synclar. Every request includes an X-Synclar-Signature header. You must verify this signature using your Webhook Signing Secret to prevent spoofing.`
   },
   {
     l1: 'API Reference',
@@ -88,7 +88,7 @@ Your API key is linked to your pre-funded x402 account, which is debited for eac
     l3: 'Submit query',
     content: `**POST** /v1/query
 
-Submits a query to the Orakle network. The cost of the query is automatically debited from your pre-funded account.
+Submits a query to the Synclar network. The cost of the query is automatically debited from your pre-funded account.
 
 **Body:**
 - \`query\` (string, required): The natural language query (e.g., "What is the 1-hour sentiment for $PING?").
